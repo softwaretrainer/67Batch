@@ -7,4 +7,5 @@ test('TC001_Login_Logout', async ({ page }) => {
     await obj.openApplication();
     await obj.login();
     await obj.logout();
+    console.log('TC001_Login_Logout executed successfully');
 });
